@@ -60,7 +60,7 @@ export default class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <div className="ms-welcome">
-        <Header logo="assets/logo-filled.png" title={this.props.title} message="Welcome" />
+        <Header logo="assets/naya.ico" title={this.props.title} message="Welcome" />
         <HeroList message="Discover what this add-in can do for you today!" items={this.state.listItems}>
           <ButtonExample />
         </HeroList>
